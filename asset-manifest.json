@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gene-classifier/static/css/main.a6bc408c.css",
+    "main.js": "/gene-classifier/static/js/main.51c90506.js",
+    "static/js/453.0cbe285c.chunk.js": "/gene-classifier/static/js/453.0cbe285c.chunk.js",
+    "index.html": "/gene-classifier/index.html",
+    "main.a6bc408c.css.map": "/gene-classifier/static/css/main.a6bc408c.css.map",
+    "main.51c90506.js.map": "/gene-classifier/static/js/main.51c90506.js.map",
+    "453.0cbe285c.chunk.js.map": "/gene-classifier/static/js/453.0cbe285c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6bc408c.css",
+    "static/js/main.51c90506.js"
+  ]
+}
