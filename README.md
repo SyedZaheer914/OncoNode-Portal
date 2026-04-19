@@ -1,44 +1,36 @@
-🧬 OncoNode-Portal
-Clinical Data Ingestion Gateway for Oncology Research
+# 🧬 OncoNode-Portal
+**Clinical Data Ingestion Gateway for Oncology Research**
 
-🔗 Launch Live Portal
-🚀 Overview
-OncoNode-Portal is a React-based Data Submission Tool designed to bridge the gap between clinical data collection and bioinformatics pipelines. It provides a structured interface for researchers to submit gene expression matrices, metadata, and clinical labels directly to a centralized cloud database.
+## 🔗 [Launch Live Portal](https://syedzaheer914.github.io/OncoNode-Portal/)
 
-This portal acts as the frontend ingestion layer for my [Lung Cancer Prediction Pipeline], ensuring that data is properly formatted and stored before undergoing machine learning analysis.
+### 🚀 Overview
+OncoNode-Portal is a React-based **Data Submission Tool** designed to bridge the gap between clinical data collection and bioinformatics analysis. It provides a structured interface for researchers to submit gene expression matrices, clinical metadata, and class labels directly to a centralized cloud database.
 
-🛠️ Technical Stack
-Frontend: React.js (Hooks & Functional Components)
+This portal acts as the frontend ingestion layer for my lung cancer classification pipeline, ensuring data is validated and stored before undergoing machine learning analysis.
 
-Database: Firebase Firestore (NoSQL) for real-time data persistence.
+### 🛠️ Technical Stack
+* **Frontend:** React.js (Hooks & Functional Components)
+* **Database:** **Firebase Firestore** for real-time data persistence.
+* **Deployment:** GitHub Pages.
 
-Deployment: GitHub Pages with automated gh-pages build workflow.
+### 📥 Data Streams Managed
+The portal handles three primary datasets essential for the downstream Random Forest classifier:
+1. **Expression Data:** Quantitative levels of gene expression (Genes × Samples).
+2. **Clinical Metadata:** Supporting factors such as **smoking status** for correlation studies.
+3. **Ground Truth Labels:** Definitive classifications (Cancer vs. Normal) for supervised training.
 
-📥 Data Streams Managed
-The portal handles three primary datasets essential for cancer classification:
 
-Expression Data: Quantitative levels of gene expression across samples.
 
-Clinical Metadata: Supporting factors such as smoking status for correlation studies.
+### 🔄 Integrated Workflow
+1. **Collection:** Researchers enter clinical data via the **OncoNode-Portal**.
+2. **Storage:** Data is structured into NoSQL documents and pushed to **Cloud Firestore**.
+3. **Analysis:** My secondary Python-based pipeline (Random Forest/ANOVA) fetches this data for biomarker discovery and diagnostic classification.
 
-Ground Truth Labels: Definitive classifications (Cancer vs. Normal) used for supervised learning.
-
-🔄 Integrated Workflow
-Collection: Clinical data is uploaded via the OncoNode-Portal.
-
-Storage: Data is securely pushed to Cloud Firestore.
-
-📂 Local Development
-Clone the repository:
-
-Bash
-git clone https://github.com/syedzaheer914/OncoNode-Portal.git
-Install dependencies:
-
-Bash
-npm install
-Run the application:
-
-Bash
-npm start
+### 📂 How to Run Locally
+1. Clone the repository:
+   git clone [https://github.com/syedzaheer914/OncoNode-Portal.git](https://github.com/syedzaheer914/OncoNode-Portal.git)
+2. Install dependencies:
+   npm install
+3. Start the application:
+   npm start
 Developed as part of an undergraduate specialization in Bioinformatics and Clinical Genomics at SRIHER.
