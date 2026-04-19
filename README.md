@@ -30,7 +30,7 @@ The application follows a modern **Serverless Architecture**:
 ### 📂 How to Run Locally
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/syedzaheer914/OncoNode-Portal.git](https://github.com/syedzaheer914/OncoNode-Portal.git)
+   git clone https://github.com/syedzaheer914/OncoNode-Portal.git
    npm install
    npm start
 Developed as part of an undergraduate specialization in Bioinformatics and Clinical Genomics at SRIHER.
