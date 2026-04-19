@@ -1,25 +1,17 @@
 # 🧬 OncoNode-Portal
-> A high-performance web interface for genomic sequence classification and oncology data submission.
+**A Clinical Genomics Submission & Classification Tool**
 
-## 🔗 [Live Demo](https://syedzaheer914.github.io/OncoNode-Portal/)
+## 🔗 [Launch Live Portal](https://syedzaheer914.github.io/OncoNode-Portal/)
 
-## 📝 Project Overview
-OncoNode-Portal was developed to bridge the gap between complex bioinformatics models and user-friendly clinical interfaces. It allows researchers to input gene sequences and receive instant classification results.
+### 🚀 Overview
+OncoNode-Portal is a React-based web application designed for the submission and real-time classification of genomic sequences. Built for researchers and clinicians, it provides a streamlined interface for oncological data analysis.
 
-### ✨ Key Features
-* **Real-time Classification:** Powered by [Mention your model, e.g., Random Forest / CNN].
-* **Validation:** Built-in sequence validation to ensure data integrity.
-* **Responsive UI:** Clean, professional interface designed for researchers.
+### 🛠️ Technical Implementation
+* **Frontend:** React.js for a responsive, interactive UI.
+* **Backend Integration:** Firebase for secure, real-time data handling (Note: Config is localized for security).
+* **Bioinformatics Logic:** Implements sequence validation and classification for oncology-related datasets.
 
-### 🛠️ Tech Stack
-* **Frontend:** React.js
-* **Deployment:** GitHub Pages
-* **Bioinformatics Logic:** [Mention any specific libraries or logic used]
-
-## 🚀 Usage
-1. Open the [Live Demo](https://syedzaheer914.github.io/OncoNode-Portal/).
-2. Paste a genomic sequence into the submission portal.
-3. Click **Analyze** to view classification and confidence scores.
-
----
-*Created as part of my specialization in Bioinformatics and Clinical Genomics at SRIHER.*
+### 📂 How to Run Locally
+1. Clone the repo: `git clone https://github.com/syedzaheer914/OncoNode-Portal.git`
+2. Install dependencies: `npm install`
+3. Start the app: `npm start`
