@@ -25,12 +25,4 @@ The application follows a modern **Serverless Architecture**:
 * **Cloud Persistence:** Utilizes Firebase to handle concurrent submissions without the need for a dedicated backend server.
 * **Scalability:** Designed to support high-throughput genomic data ingestion for oncology research.
 
-
-
-### 📂 How to Run Locally
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/syedzaheer914/OncoNode-Portal.git
-   npm install
-   npm start
 Developed as part of an undergraduate specialization in Bioinformatics and Clinical Genomics at SRIHER.
