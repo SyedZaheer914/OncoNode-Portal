@@ -33,4 +33,5 @@ The portal handles three primary datasets essential for the downstream Random Fo
    npm install
 3. Start the application:
    npm start
+
 Developed as part of an undergraduate specialization in Bioinformatics and Clinical Genomics at SRIHER.
